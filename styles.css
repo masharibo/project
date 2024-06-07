@@ -1,0 +1,177 @@
+  /* darkPurple: 'hsl(273, 85%, 13%)',
+  lightPurple: 'hsl(271, 12%, 34%)',
+  veryLightPurple: 'hsl(276, 100%, 99%)',
+  white: 'hsl(0, 0%, 100%)',
+  green: 'hsl(150, 100%, 63%)' */
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+    body{
+    padding: 0;
+    margin: 0 auto;
+    background-color: hsl(150, 100%, 63%)
+  }
+  button{
+    cursor: pointer;
+  }
+
+  header{
+    background-color:hsl(273, 85%, 13%) ;
+    border-radius: 0 0 10% 10%;
+    position: relative;
+    
+  }
+
+  nav{
+    padding: 40px 60px;
+
+  }
+  nav img{
+    float: left;
+  }
+  nav a{
+    float: right;
+    color: white;
+    text-decoration: underline hsl(150, 100%, 63%) ;
+  }
+  #main{
+    text-align: center;
+    color: hsl(278,100%,99%);
+    
+  }
+  #main button{
+    background-color:hsl(150, 100%, 63%) ;
+    padding: 20px;
+    
+
+  }
+  #main h1{
+   color:  hsl(276, 100%, 99%);
+    font-size: 2.5rem;
+  }
+  #main span{
+    border-bottom: 2px solid hsl(150, 100%, 63%);
+  }
+  #hero-img{
+    width: 100%;
+    position: absolute;
+  }
+  #hero-img-container{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+ #bg-1{
+  position: absolute;
+  top: 150px;
+ }
+ #bg-2{
+  position: absolute;
+  top: 150px;
+  right: 0;
+ }
+ #card-container{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color:aqua;
+  border-radius: 100% / 0 0 10% 10%;
+ }
+
+ .card{
+  
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  vertical-align: middle;
+  padding: 20px;
+  margin-right: 20px;
+  color: hsl(273, 85%, 13%);
+ }
+ #guy:hover{
+  transition: 0.5s;
+  color: red;
+ }
+.card:hover{
+  scale: 1.1;
+  background-color:chartreuse;
+  border-radius: 50px;
+  color: aqua;
+}
+#main button:hover{
+  transition: 0.5s;
+  background-color: aqua;
+  border-radius: 50%;
+  color: red;
+}
+.card span{
+  border: 1px solid;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 1,5rem;
+  text-align: center;
+}
+.card h2{
+  font-size: 2rem;
+}
+.card p{
+  font-size: 1.5rem;
+}
+#g:hover{
+transition: 0.5s;
+background-color: aqua;
+border-radius: 50%;
+color: red;
+}
+#g{
+  background-color:hsl(150, 100%, 63%) ;
+  padding: 20px;
+
+}
+#founder{
+  width: 100%;
+  height: 100%;
+}
+#founder img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -150px;
+  left: -100px;
+  z-index: -1;
+}
+#founder-div{
+  position: relative;
+  background-color: hsl(273, 85%, 13%);
+  width: 600px;
+  height: 400px;
+  margin: 200px auto;
+  color: hsl(276, 100%, 99%);
+  padding: 20px;
+}
+#founder h2{
+  font-size: 2rem;
+}
+#founder p{
+  font-size: 1.5rem;
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  
+  }
+footer img{
+  margin: 10px;
+}
+.footer__media{
+  display: flex;
+  justify-content: center;
+}
